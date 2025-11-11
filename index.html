@@ -23,54 +23,59 @@
 </head>
 
 <body>
-    <!-- Nav bar below is a child of the header element for semantic structuring -->
-    <header>
-        <!-- Navbar code and style is repurposed from bootstrap's components library -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navbar is built as an unordered list, use of flexbox to justify the navbar ul to the right of the div. -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav d-flex justify-content-end w-100">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Demo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Navbar code and style is repurposed from bootstrap's components library -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar is built as an unordered list, use of flexbox to justify the navbar ul to the right of the div. -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-end w-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Demo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <!-- hero section semantically structured -->
     <section>
-        <div>
-            <!-- h1 element variable font class imported form google -->
+        <div class="hero-section">
+            <!-- hero image with responsive deisgn and aria label for accessibilty
+            image was generated using chatGPT and the "Ivory Glow" colour palette from Figma -->
+            <img src="assets/img/hero-desktop-1.png" media="(min-width:550px)"
+                aria-label="Hero Image background showing an abstract and minimalist design with orange and blue tones representing sustainability and technology."
+                alt="Abstract Hero Image desktop">
+
+            <!-- h1 and p elements' variable font classes import font from google -->
             <h1 class="inter-bold-700">The AI suite to power your green transition.</h1>
             <p class="inter-normal-400">Harness the power of AI to meet ESG goals and identify blind spots in your
                 business.</p>
+
+            <!-- buttons from bootstrap are links to relevant pages on the site -->
             <a href="#">
-                <button type="button" class="btn btn-secondary btn-sm">
+                <button type="button" class="btn btn-secondary btn-sm" id="mainbutton">
                     Pricing
                 </button>
             </a>
             <a href="#">
-                <button type="button" class="btn btn-outline-secondary btn-sm">
+                <button type="button" class="btn btn-outline-secondary btn-sm" id="secondarybutton">
                     Features
                 </button>
             </a>

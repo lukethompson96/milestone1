@@ -13,3 +13,56 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.hero-section {
+    position: relative;
+}
+
+.hero-section img {
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 4vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-section p {
+    font-size: 1.5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mainbutton {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 82%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+
+#secondarybutton {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 82%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
