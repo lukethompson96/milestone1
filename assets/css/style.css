@@ -1,5 +1,6 @@
 /* This is the default stylesheet */
 
+/* this css styles the variable font using the bold class (used mainly on headings)*/
 .inter-bold-700 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -7,6 +8,7 @@
     font-style: bold;
 }
 
+/* this css styles the variable font using the normal class (used mainly on p elements)*/
 .inter-normal-400 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -14,14 +16,18 @@
     font-style: normal;
 }
 
+/* style for the container which holds the hero section content, position is absolute so I can overlay objects on top of it*/
 .hero-section {
     position: relative;
 }
 
+/* style for the img in the hero section, position is absolute so I can overlay objects on top of it*/
 .hero-section img {
     position: relative;
 }
 
+/* h1 styling for the heading in the hero section container, text size is responsive as it is relative to the viewport width, 
+poisitioning inside the container is styled so it is centred and overlayed using position: absolute; */
 .hero-section h1 {
     font-size: 4vw;
     text-align: center;
@@ -33,6 +39,8 @@
     transform: translate(-50%, -50%);
 }
 
+/* p styling for the paragraph in the hero section container, text size is responsive as it is relative to the viewport width, 
+poisitioning inside the container is styled so it is centred and overlayed using position: absolute; */
 .hero-section p {
     font-size: 1.5vw;
     text-align: center;
@@ -44,6 +52,8 @@
     transform: translate(-50%, -50%);
 }
 
+/* main button styling for the CTA button in the hero section container, 
+poisitioning inside the container is styled so it is centred and overlayed using position: absolute; */
 #mainbutton {
     display: flex;
     justify-content: center;
@@ -53,6 +63,8 @@
     transform: translate(-50%, -50%);
 }
 
+/* scondary button styling for the secondary CTA button in the hero section container, 
+poisitioning inside the container is styled so it is centred and overlayed using position: absolute; */
 #secondarybutton {
     display: flex;
     justify-content: center;
@@ -62,6 +74,7 @@
     transform: translate(-50%, -50%);
 }
 
+/* makes all images responsive */
 img {
     width: 100%;
     height: auto;
