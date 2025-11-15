@@ -28,25 +28,24 @@
         <!-- Navbar code and style is repurposed from bootstrap's components library -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary" id="primary-nav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Huxly.AI</a>
+                <a class="navbar-brand" href="index.html">Huxly.AI</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- Navbar is built as an unordered list, use of flexbox to justify the navbar ul to the right of the div. -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav d-flex justify-content-end w-100">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="features.html">Features</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Demo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="pricing.html">Pricing</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -56,6 +55,7 @@
             </div>
         </nav>
     </header>
+    <br>
     <!-- hero section semantically structured -->
     <section>
         <div class="hero-section">
@@ -71,22 +71,24 @@
                 business.</p>
 
             <!-- buttons from bootstrap are links to relevant pages on the site -->
-            <a href="#">
-                <button type="button" class="btn btn-secondary btn-sm" id="mainbutton">
-                    Pricing
-                </button>
-            </a>
-            <a href="#">
-                <button type="button" class="btn btn-outline-secondary btn-sm" id="secondarybutton">
-                    Features
-                </button>
-            </a>
+            <div class="section-buttons">
+                <a href="pricing.html">
+                    <button type="button" class="btn btn-secondary btn-sm">
+                        Pricing
+                    </button>
+                </a>
+                <a href="features.html">
+                    <button type="button" class="btn btn-outline-secondary btn-sm">
+                        Features
+                    </button>
+                </a>
+            </div>
         </div>
     </section>
-
+    <br>
     <section>
         <div class="benefits-section" name="benefits-section">
-            <ul class="container row">
+            <ul class="container row" id="benefits-ul">
                 <li class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/img/cytonn-photography-unsplash.jpg" class="card-img-top"
@@ -123,9 +125,22 @@
                     </div>
                 </li>
             </ul>
+            <div class="section-buttons">
+                <!-- buttons from bootstrap are links to relevant pages on the site -->
+                <a href="pricing.html">
+                    <button type="button" class="btn btn-secondary btn-sm">
+                        Pricing
+                    </button>
+                </a>
+                <a href="features.html">
+                    <button type="button" class="btn btn-outline-secondary btn-sm">
+                        Features
+                    </button>
+                </a>
+            </div>
         </div>
     </section>
-
+    <br>
     <footer>
         <div class="footer-nav">
             <nav class="navbar">

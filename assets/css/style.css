@@ -6,16 +6,6 @@ img {
     height: auto;
 }
 
-/* removes default bullet points from unordered lists */
-ul {
-    list-style-type: none;
-}
-
-li {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
 /* this css styles the variable font using the bold class (used mainly on headings)*/
 .inter-bold-700 {
     font-family: "Inter", sans-serif;
@@ -76,27 +66,6 @@ poisitioning inside the container is styled so it is centred and overlayed using
     transform: translate(-50%, -50%);
 }
 
-/* main button styling for the CTA button in the hero section container, 
-poisitioning inside the container is styled so it is centred and overlayed using position: absolute; */
-#mainbutton {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 82%;
-    left: 46%;
-    transform: translate(-50%, -50%);
-}
-
-/* scondary button styling for the secondary CTA button in the hero section container, 
-poisitioning inside the container is styled so it is centred and overlayed using position: absolute; */
-#secondarybutton {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 82%;
-    left: 54%;
-    transform: translate(-50%, -50%);
-}
 
 /* styles the benefits section with padding, margin, height, etc */
 .benefits-section {
@@ -109,7 +78,38 @@ poisitioning inside the container is styled so it is centred and overlayed using
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    position: relative;
+}
+
+/* removes default bullet points from unordered list in benefits section */
+#benefits-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* adds padding to the list items in the benefits section */
+#benefits-ul>li {
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+/* styles positioning of the buttons at the end of each section on the web page */
+.section-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+/* styles spacing between buttons */
+.section-buttons>a>button {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* styles the footer navbar to fill the width of the viewport and to display flex containers inline */
