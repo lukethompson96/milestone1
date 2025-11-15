@@ -23,37 +23,39 @@
 </head>
 
 <body>
-    <!-- Navbar code and style is repurposed from bootstrap's components library -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Huxly.AI</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navbar is built as an unordered list, use of flexbox to justify the navbar ul to the right of the div. -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav d-flex justify-content-end w-100">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Demo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <!-- header contains primary navbar which is fixed using CSS -->
+    <header>
+        <!-- Navbar code and style is repurposed from bootstrap's components library -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="primary-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Huxly.AI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar is built as an unordered list, use of flexbox to justify the navbar ul to the right of the div. -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-end w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Demo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
     <!-- hero section semantically structured -->
     <section>
         <div class="hero-section">
@@ -81,6 +83,8 @@
             </a>
         </div>
     </section>
+
+
 
     <!-- Script below is to enable bootstrap on the webpage. -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

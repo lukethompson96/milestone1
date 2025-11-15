@@ -16,6 +16,10 @@
     font-style: normal;
 }
 
+#primary-nav {
+    position: fixed;
+}
+
 /* style for the container which holds the hero section content, position is absolute so I can overlay objects on top of it*/
 .hero-section {
     position: relative;
