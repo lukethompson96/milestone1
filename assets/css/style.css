@@ -1,5 +1,11 @@
 /* This is the default stylesheet */
 
+/* makes all images responsive */
+img {
+    width: 100%;
+    height: auto;
+}
+
 /* this css styles the variable font using the bold class (used mainly on headings)*/
 .inter-bold-700 {
     font-family: "Inter", sans-serif;
@@ -14,18 +20,13 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
 }
 
+/* styles the navbar to remain fixed at the top of the page and to fill the width of the viewport */
 #primary-nav {
     position: fixed;
     width: 100%;
-    z-index: 1;
-}
-
-.footer-nav {
-    position: relative;
-    width: 100%;
-    bottom: 0;
     z-index: 1;
 }
 
@@ -87,8 +88,41 @@ poisitioning inside the container is styled so it is centred and overlayed using
     transform: translate(-50%, -50%);
 }
 
-/* makes all images responsive */
-img {
+/* styles the footer navbar to fill the width of the viewport and to display flex containers inline */
+.footer-nav {
+    display: inline;
+    position: relative;
     width: 100%;
-    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+/* styles the footer nav links to align right */
+.footer-links {
+    display: flex;
+    align-content: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+th,
+td {
+    padding-left: 50px;
+}
+
+/* the below style removes blue and underlined default styl;e for hyperlinks in the footer navbar table */
+th>a {
+    text-decoration: none;
+    color: black;
+}
+
+/* the below style removes blue and underlined default styl;e for hyperlinks in the footer navbar table */
+td>a {
+    text-decoration: none;
+    color: black;
 }
