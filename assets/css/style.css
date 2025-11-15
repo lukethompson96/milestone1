@@ -18,6 +18,8 @@
 
 #primary-nav {
     position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 /* style for the container which holds the hero section content, position is absolute so I can overlay objects on top of it*/
