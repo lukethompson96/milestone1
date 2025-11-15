@@ -6,6 +6,16 @@ img {
     height: auto;
 }
 
+/* removes default bullet points from unordered lists */
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 /* this css styles the variable font using the bold class (used mainly on headings)*/
 .inter-bold-700 {
     font-family: "Inter", sans-serif;
@@ -86,6 +96,20 @@ poisitioning inside the container is styled so it is centred and overlayed using
     top: 82%;
     left: 54%;
     transform: translate(-50%, -50%);
+}
+
+/* styles the benefits section with padding, margin, height, etc */
+.benefits-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 /* styles the footer navbar to fill the width of the viewport and to display flex containers inline */
