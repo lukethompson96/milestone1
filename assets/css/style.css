@@ -102,6 +102,7 @@ poisitioning inside the container is styled so it is centred and overlayed using
     position: absolute;
     top: 90%;
     left: 45%;
+    size: 4vw;
 }
 
 /* styles spacing between buttons */
@@ -112,6 +113,34 @@ poisitioning inside the container is styled so it is centred and overlayed using
     margin-right: 10px;
 }
 
+/* justify's the text to the center of each bootstrap card */
+.card-body {
+    text-align: center;
+}
+
+/* styling to ensure h1 is below the navbar and has smaller padding than the pricing cards */
+#pricing-h1 {
+    /* colour is in-keeping with the Ivory Glow color scheme from Figma */
+    background-color: #E2E7E3;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+/* styles the pricing cards to be centred in the webpage and below the fixed navbar */
+#pricing-section {
+    /* colour is in-keeping with the Ivory Glow color scheme from Figma */
+    background-color: #E2E7E3;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+/* styles the pricing comparison table to be centred in the webpage and below the previous div */
+#pricing-comparison-section {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
 /* styles the footer navbar to fill the width of the viewport and to display flex containers inline */
 .footer-nav {
     display: inline;
@@ -119,11 +148,13 @@ poisitioning inside the container is styled so it is centred and overlayed using
     width: 100%;
 }
 
+/* styles the footer copyright info align left */
 .footer-content {
     display: flex;
     align-content: center;
     justify-content: start;
     padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 /* styles the footer nav links to align right */
@@ -132,6 +163,7 @@ poisitioning inside the container is styled so it is centred and overlayed using
     align-content: center;
     justify-content: end;
     padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 th,

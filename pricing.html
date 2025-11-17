@@ -57,11 +57,151 @@
         </nav>
     </header>
 
-    <!-- hero section semantically structured -->
+    <!-- Semantically structured section for the pricing cards -->
     <section>
-
+        <div id="pricing-h1">
+            <h1 class="inter-bold-700">Huxly.AI Pricing Tiers:</h1>
+        </div>
+        <!-- the div container housing all the child elements is given an ID for styling purposes -->
+        <div id="pricing-section">
+            <ul class="container row" id="benefits-ul">
+                <li class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <!-- some copy for the features included below is inspired by the features listed on the gaia company pricing page, retreivable here: https://gaiacompany.io/carbon-accounting-software/pricing/ -->
+                            <h4 class="card-title inter-bold-700">Starter</h4>
+                            <p class="card-text inter-normal-400">For SMEs who would like to track and report their
+                                emissions.</p>
+                            <p class="card-text inter-bold-700">Starting at £90 + VAT per month.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Measure and track scope 1, 2, & 3 emissions</li>
+                                <li class="list-group-item">SECR Reporting</li>
+                                <li class="list-group-item">Analytics Dashboard</li>
+                                <li class="list-group-item">Full ISO 14064 Compliance</li>
+                            </ul>
+                            <br>
+                            <a href="contact.html" class="btn btn-secondary">Contact Sales</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <!-- some copy for the features included below is inspired by the features listed on the gaia company pricing page, retreivable here: https://gaiacompany.io/carbon-accounting-software/pricing/ -->
+                            <h4 class="card-title inter-bold-700">Plus</h4>
+                            <p class="card-text inter-normal-400">For midcap companies with specific emissions targets.
+                            </p>
+                            <p class="card-text inter-bold-700">Starting at £450 + VAT per month.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">All features from "Starter"</li>
+                                <li class="list-group-item">Automated Data Collection</li>
+                                <li class="list-group-item">AI Augmented Analytics Insights</li>
+                                <li class="list-group-item">Carbon Reduction Planning</li>
+                            </ul>
+                            <br>
+                            <a href="contact.html" class="btn btn-secondary">Contact Sales</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <!-- some copy for the features included below is inspired by the features listed on the gaia company pricing page, retreivable here: https://gaiacompany.io/carbon-accounting-software/pricing/ -->
+                            <h4 class="card-title inter-bold-700">Enterprise</h4>
+                            <p class="card-text inter-normal-400">For enterprise companies with a bespoke use-case.</p>
+                            <p class="card-text inter-bold-700">Starting at £1250 + VAT per month.</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">All features from "Plus"</li>
+                                <li class="list-group-item">Decarbonisation Strategy Powered by AI</li>
+                                <li class="list-group-item">3rd Party Integrations</li>
+                                <li class="list-group-item">Access to our API</li>
+                            </ul>
+                            <br>
+                            <a href="contact.html" class="btn btn-secondary">Contact Sales</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
 
+    <!-- another semantically structured section for the tier comparison table -->
+    <section>
+        <div id="pricing-comparison-section">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Features</th>
+                        <th scope="col">Starter</th>
+                        <th scope="col">Plus</th>
+                        <th scope="col">Enterprise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Measure and track scope 1, 2, & 3 emissions</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>SECR Reporting</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Analytics Dashboard</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Full ISO 14064 Compliance</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Automated Data Collection</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>AI Augmented Analytics Insights</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Carbon Reduction Planning</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Decarbonisation Strategy Powered by AI</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>3rd Party Integrations</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                    <tr>
+                        <td>Access to our API</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
     <footer>
         <div class="footer-nav">
