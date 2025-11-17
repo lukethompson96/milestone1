@@ -1,5 +1,24 @@
 /* This is the default stylesheet */
 
+/* media query to change padding top size on smaller devices so headings aren't consumed by navbar*/
+@media screen and (max-width: 414px) {
+    #pricing-h1 {
+        padding-top: 10%;
+    }
+}
+
+/* styling to ensure h1 is below the navbar and has smaller padding than the pricing cards */
+@media screen and (min-width: 415px) {
+    #pricing-h1 {
+        /* colour is in-keeping with the Ivory Glow color scheme from Figma */
+        background-color: #E2E7E3;
+        display: flex;
+        position: relative;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+}
+
 /* makes all images responsive */
 img {
     width: 100%;
@@ -11,7 +30,7 @@ img {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
 }
 
 /* this css styles the variable font using the normal class (used mainly on p elements)*/
@@ -118,27 +137,16 @@ poisitioning inside the container is styled so it is centred and overlayed using
     text-align: center;
 }
 
-/* styling to ensure h1 is below the navbar and has smaller padding than the pricing cards */
-#pricing-h1 {
-    /* colour is in-keeping with the Ivory Glow color scheme from Figma */
-    background-color: #E2E7E3;
-    padding-top: 5%;
-    padding-left: 5%;
-}
-
 /* styles the pricing cards to be centred in the webpage and below the fixed navbar */
 #pricing-section {
     /* colour is in-keeping with the Ivory Glow color scheme from Figma */
     background-color: #E2E7E3;
     padding-left: 20%;
-    padding-top: 5%;
 }
 
 /* styles the pricing comparison table to be centred in the webpage and below the previous div */
 #pricing-comparison-section {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
 }
 
 /* styles the footer navbar to fill the width of the viewport and to display flex containers inline */
