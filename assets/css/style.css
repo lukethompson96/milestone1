@@ -1,6 +1,6 @@
 /* This is the default stylesheet */
 
-/* media query to change padding top size on smaller devices so headings aren't consumed by navbar*/
+/* media query to change padding top size on smaller devices so headings aren't consumed by navbar */
 @media screen and (max-width: 414px) {
     #pricing-h1 {
         padding-top: 10%;
