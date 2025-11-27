@@ -174,6 +174,40 @@ poisitioning inside the container is styled so it is centred and overlayed using
     padding-bottom: 50px;
 }
 
+.contact-hero-section {
+    position: relative;
+}
+
+/* h1 styling for the heading in the contact hero section container, text size is responsive as it is relative to the viewport width, 
+poisitioning inside the container is styled so it is centred and overlayed using position: absolute; */
+.contact-hero-section h1 {
+    font-size: 4vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+/* allows contact form and h1 t overlap the background image */
+#contact-form {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+}
+
+/* ensures that the form doesn't overlap the h1 on the page */
+@media only screen and (max-width: 1600px) {
+    #contact-form {
+        position: relative;
+        transform: translate(0, 0);
+        margin-top: 20px;
+        left: 0%;
+    }
+}
+
 th,
 td {
     padding-left: 50px;
