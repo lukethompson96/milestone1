@@ -225,8 +225,24 @@ td>a {
     color: black;
 }
 
+/* places the iframe under the h1 and positions it on the page */
 #maps-container {
     position: relative;
     left: 10%;
     margin-top: 200px;
+}
+
+/* ensures that the form doesn't overlap the h1 on the page */
+@media only screen and (max-width: 1600px) {
+    #maps-container {
+        position: relative;
+        transform: translate(0, 0);
+        margin-top: 200px;
+        left: 0%;
+    }
+}
+
+/* styles the background of the iframe section according to the colour scheme */
+#grey-bg {
+    background-color: #E2E7E3;
 }
