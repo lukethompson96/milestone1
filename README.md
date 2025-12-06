@@ -1,5 +1,12 @@
 # Milestone 1 Project - Huxly.AI
 
+## Section 1 Outline
+From the Marking Scheme: "Design a Front end web
+application based on the
+principles of user experience
+design, accessibility and
+responsivity."
+
 ### 1.1 Navigation Menu
 Each web page contains a nav element which contains a navbar built using the help of bootstrap.
 The navbar is styled with one of boostraps' in-built styles, as a "primary nav" and I have added my own styling to shift the nav links to the right end of the nav bar. 
