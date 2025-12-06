@@ -32,6 +32,10 @@ All self-generated grpahics are consistent with the Ivory Glow colour scheme and
 ### 1.6 User Interactivity
 The site contains no v ideo or audio but includes an embedded iframe of google maps on the contact page so that the user can find the location of the business. The site also contains a form which the user can interact with to contact the business.
 
+## Section 2 Outline
+From the marking scheme: "Develop and implement a static front-end web application using
+HTML and CSS."
+
 ### 2.1
 
 
