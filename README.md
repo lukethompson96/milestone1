@@ -57,3 +57,6 @@ pricing.html:
 
 ### 2.4 Image Resolutions
 All images across the site are either a fixed native resolution so that they don't scale up and appear distorted or pixelated - or the graphics for the backgrounds which scale with the viewport size are blujrred as a matter of stylistic intent and therefore do not appear distorted either.
+
+### 2.5 External Links
+All external links are coded with the the target="_blank" attribute in the anchor element. These are mostly featured in the footer nav across all pages.
