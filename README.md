@@ -40,5 +40,17 @@ HTML and CSS."
 The website has 3 pages - the index (home) page, the pricing page, and the contact page. 
 
 ### 2.2 CSS Validation
-The CSS code which i have written in the style.css file passes through the CSS Validator with no errors.
-![CSS Validator confirmation](assets/img/cssvalidation.png)
+The CSS code which i have written in the style.css file passes through the Jigsaw CSS Validator with no errors.
+![CSS Validator interface displaying successful validation results with no errors reported, showing a green confirmation message](assets/img/cssvalidation.png)
+
+### 2.3 HTML Validation
+All html documents in the project passed html validation from validator.w3.org
+
+index.html:
+![HTML Validator interface displaying successful validation results with no errors reported, showing a green confirmation message](assets/img/indexhtmlvalidation.png)
+
+contact.html:
+![HTML Validator interface displaying successful validation results with no errors reported, showing a green confirmation message](assets/img/contacthtmlvalidation.png)
+
+pricing.html:
+![HTML Validator interface displaying successful validation results with no errors reported, showing a green confirmation message](assets/img/pricinghtmlvalidation.png)
