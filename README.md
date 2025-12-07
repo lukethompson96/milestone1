@@ -60,3 +60,11 @@ All images across the site are either a fixed native resolution so that they don
 
 ### 2.5 External Links
 All external links are coded with the the target="_blank" attribute in the anchor element. These are mostly featured in the footer nav across all pages.
+
+### 2.6 Media Queries etc.
+Media queries are utilised to make the site responsive to different viewport widths. 
+The media queries mainly address the padding in the pricing page to ensure that the header navbar doesn't overlay page content such as headings. 
+This is because the header navbar has a flex position of "fixed" so that it doesn't disappear when a user scrolls down the page. 
+I have also utilised the col class in bootstrap for responsive design on div containers such as the pricing cards and the cards on the home page.
+The background image and hero text are scaled responsively using "width: 100%;" and "font-size: 4vw;" in the stylesheet, which ensures images are always fit to the width of the viewport and the text stays a certain ratio to the view width in terms of size.
+
