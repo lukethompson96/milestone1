@@ -62,21 +62,23 @@
                 alt="Abstract Hero Image desktop">
             <h1 class="inter-bold-700">Contact Us</h1>
             <div id="contact-form" class="container col-sm-12 col-md-12 col-lg-12 mt-5">
-                <form>
+                <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank"
+                    aria-label="a contact form to get in touch with us">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Your Name"
-                            aria-label="an input field to enter your name">
+                        <input type="text" class="form-control" name="user-name" id="name" placeholder="Your Name"
+                            aria-label="an input field to enter your name" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="yourname@example.com"
-                            aria-label="an input field to enter your email address">
+                        <input type="email" class="form-control" name="user-email" id="email"
+                            placeholder="yourname@example.com" aria-label="an input field to enter your email address"
+                            required>
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message"
-                            aria-label="a text area to write your message to us"></textarea>
+                        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message"
+                            aria-label="a text area to write your message to us" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary"
                         aria-label="a button to submit the form">Submit</button>

@@ -92,7 +92,11 @@ I want to access information on the features and price of the service,
 So that I can make an informed purchase decision
 
 Acceptance Criteria:
-Pricing-page presents easily digestible information on pricing and features 
+Pricing-page presents easily digestible information on pricing and features.
+
+Screenshot: ![Evidence of acceptance criterion 1](assets/img/pricingscreenshot.png)
+Screenshot: ![Evidence of acceptance criterion 1](assets/img/featuresscreenshot.png)
+---
 
 User Story 2:
 
@@ -103,6 +107,9 @@ So that I can explore potential collaborations.
 Acceptance Criteria: 
 Contact form is easily accessible and confirms submission, and opens in a separate tab.
 
+Screenshot: ![Evidence of acceptance criterion 2](assets/img/contactformscreenshot.png)
+Screenshot: ![Evidence of acceptance criterion 2](assets/img/formsubmission.png)
+---
 User Story 3: 
 
 As a sustainability manager,
@@ -111,3 +118,4 @@ So that I can ascertain whether it would be valuable to my department.
 
 Acceptance crtieria:
 Homepage clearly outlines how the software works and the expected ROI.
+---
