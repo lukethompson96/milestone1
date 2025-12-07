@@ -76,3 +76,38 @@ All content is site specific with no Lorem ipsum or similar placeholder content.
 
 ### 2.9 Clear Navigation. 
 The navigation on the site is remarkably clear and user-friendly, with a navbar in the header which conveys to the user which page they're currely on, as wsell as a footer nav with other related links set out in a data table format, grouped together in categories (social media links, lega, contact links etc). Site navigation outside of these navbars is also intuitive at the bottom of site sections so that the user can navigate to related pages to the content (usually works as a CTA to funnel users to contact form).
+
+## Section 3 Outline
+From the marking scheme: "Maximise future maintainability through documentation, code structure and organisation."
+
+### 3.1 README.md
+You are reading it.
+
+### 3.2 User Stories & Screenshots
+#### User Stories
+User Story 1:
+
+As a Small Business Owner,
+I want to access information on the features and price of the service,
+So that I can make an informed purchase decision
+
+Acceptance Criteria:
+Pricing-page presents easily digestible information on pricing and features 
+
+User Story 2:
+
+As an Environmental NGO,
+I want to contact the company,
+So that I can explore potential collaborations.
+
+Acceptance Criteria: 
+Contact form is easily accessible and confirms submission, and opens in a separate tab.
+
+User Story 3: 
+
+As a sustainability manager,
+I want to understand how Huxly.AI tracks my company's carbon emissions,
+So that I can ascertain whether it would be valuable to my department.
+
+Acceptance crtieria:
+Homepage clearly outlines how the software works and the expected ROI.
