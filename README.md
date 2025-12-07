@@ -54,3 +54,6 @@ contact.html:
 
 pricing.html:
 ![HTML Validator interface displaying successful validation results with no errors reported, showing a green confirmation message](assets/img/pricinghtmlvalidation.png)
+
+### 2.4 Image Resolutions
+All images across the site are either a fixed native resolution so that they don't scale up and appear distorted or pixelated - or the graphics for the backgrounds which scale with the viewport size are blujrred as a matter of stylistic intent and therefore do not appear distorted either.
