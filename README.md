@@ -73,3 +73,6 @@ All content is semantially marked up as outlined earlier in the README. Navs are
 
 ### 2.8 Site-specific content.
 All content is site specific with no Lorem ipsum or similar placeholder content. All the content on the site relates to the software being sold.
+
+### 2.9 Clear Navigation. 
+The navigation on the site is remarkably clear and user-friendly, with a navbar in the header which conveys to the user which page they're currely on, as wsell as a footer nav with other related links set out in a data table format, grouped together in categories (social media links, lega, contact links etc). Site navigation outside of these navbars is also intuitive at the bottom of site sections so that the user can navigate to related pages to the content (usually works as a CTA to funnel users to contact form).
