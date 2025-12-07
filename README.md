@@ -36,6 +36,9 @@ The site contains no v ideo or audio but includes an embedded iframe of google m
 From the marking scheme: "Develop and implement a static front-end web application using
 HTML and CSS."
 
-### 2.1
+### 2.1 Website of at least 3 pages
+The website has 3 pages - the index (home) page, the pricing page, and the contact page. 
 
-
+### 2.2 CSS Validation
+The CSS code which i have written in the style.css file passes through the CSS Validator with no errors.
+![CSS Validator confirmation](assets/img/cssvalidation.png)
